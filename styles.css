@@ -1,0 +1,80 @@
+.gym-form-container1 form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  background-color :rgb(173, 211, 244);
+  border-radius: 5px;
+}
+.gym-form-container1 form input{
+  margin-bottom: 1rem;
+}
+.gym-form-container1 form label {
+  margin-bottom: 1rem;
+  
+}
+
+.gym-form-container1 form button {
+  align-self: center;
+  background-color: blue;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.gym-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; 
+}
+
+.gym-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.gym-list-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: "300px";
+  
+}
+
+.gym-list-container th,
+.gym-list-container td {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.gym-list-container th {
+  background-color: #282c34;
+  color: white;
+} 
+
+
+
+.gym-list-container button {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gym-list-container button:nth-child(1) {
+  background-color: green;
+}
+
+.gym-list-container button:nth-child(2) {
+  background-color: red;
+}
+
+
